@@ -1,0 +1,22 @@
+.container {
+  @apply relative mt-24 w-full h-[365px]  bg-white text-white flex flex-row justify-between items-center;
+}
+
+.wrapper_img {
+  @apply h-[365px] w-full relative;
+}
+
+.wrapper_action {
+  @apply absolute  flex flex-col items-center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  @apply text-[40px] text-[#F0F0F0] font-semibold mb-3;
+}
+.button {
+  @apply text-[#F3F3F3] font-medium text-[20px] py-2 px-3 rounded-lg bg-[#264E85] hover:bg-[#3b5f91] cursor-pointer  text-center;
+  transition: background-color 0.3s ease;
+}

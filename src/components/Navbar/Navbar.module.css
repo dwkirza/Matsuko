@@ -1,0 +1,25 @@
+.container {
+  @apply fixed top-0 z-50 w-full  h-24  bg-white text-black flex flex-row justify-between items-center px-24;
+  transition: background-color 0.3s ease;
+}
+
+.scrolling {
+  @apply bg-[#264E85] text-[#F3F3F3];
+}
+.wrapper_menu {
+  @apply w-full flex flex-row justify-end gap-5;
+}
+
+.text {
+  @apply w-36 text-center text-xl cursor-pointer   font-semibold opacity-95 hover:opacity-100;
+}
+
+.active {
+  @apply text-[#264E85] opacity-100 font-bold;
+  transition: background-color 0.3s ease;
+}
+
+.activeScroll {
+  @apply text-[#F0F0F0] opacity-100 font-bold;
+  transition: background-color 0.3s ease;
+}

@@ -1,0 +1,11 @@
+.container {
+  @apply mt-24 px-24 w-full;
+}
+
+.title {
+  @apply font-bold text-[45px] text-[#264E85] mb-9;
+}
+
+.desc {
+  @apply text-black text-lg  text-justify mb-6;
+}

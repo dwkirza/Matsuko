@@ -1,0 +1,31 @@
+.container {
+  @apply mt-12 px-24 w-full;
+}
+
+.title {
+  @apply font-bold text-[45px] text-[#264E85] mb-9;
+}
+
+.desc {
+  @apply text-black text-lg  text-justify mb-6;
+}
+
+.wrapper_number {
+  @apply relative w-56 h-28  mt-5  overflow-hidden;
+}
+
+.number {
+  @apply text-[#264E85] text-[150px] font-bold absolute -bottom-16 right-[20px];
+}
+
+.text {
+  @apply text-2xl font-medium text-center mt-2;
+}
+
+.wrapper_img {
+  @apply w-[120px] h-40  flex justify-center;
+}
+
+.line {
+  @apply w-56  h-1 bg-gradient-to-b from-[#264E85]/40 to-white;
+}
