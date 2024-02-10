@@ -2,8 +2,16 @@ import style from "./Keutungan.module.css";
 
 const index = () => {
   return (
-    <div className={style.container}>
-      <div className={style.title}>Keuntungan Untuk Konveksi</div>
+    <div
+      className={style.container}
+      style={{ fontFamily: "Poppins, sans-serif" }}
+    >
+      <div
+        className={style.title}
+        style={{ fontFamily: "'Philosopher', sans-serif" }}
+      >
+        Keuntungan Untuk Konveksi
+      </div>
       <div className={style.desc}>
         Matsuko.id bertujuan untuk menyederhanakan distribusi bahan tekstil
         kepada konveksi-konveksi yang umumnya menghadapi tantangan dalam

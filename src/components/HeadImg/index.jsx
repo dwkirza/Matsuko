@@ -3,7 +3,11 @@ import style from "./HeadImg.module.css";
 
 const index = () => {
   return (
-    <div id="beranda" className={style.container}>
+    <div
+      id="beranda"
+      className={style.container}
+      style={{ fontFamily: "Poppins, sans-serif" }}
+    >
       <div className={style.wrapper_img}>
         <Image src="/img/kain.png" objectFit="cover" alt="Logo" fill priority />
       </div>

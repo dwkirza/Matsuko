@@ -7,9 +7,18 @@ import { IoLocationSharp } from "react-icons/io5";
 
 const index = () => {
   return (
-    <div id="kontak" className={style.container}>
+    <div
+      id="kontak"
+      className={style.container}
+      style={{ fontFamily: "Poppins, sans-serif" }}
+    >
       <div>
-        <div className={style.title}>Kontak</div>
+        <div
+          className={style.title}
+          style={{ fontFamily: "'Philosopher', sans-serif" }}
+        >
+          Kontak
+        </div>
         <div className={style.wrapper_sosmed}>
           <RiInstagramFill className="text-[#FBFBFD]" size={24} />
           <div className={style.textsosmed}>matsuko.id</div>
@@ -33,7 +42,7 @@ const index = () => {
         </div>
       </div>
       <div className="relative">
-        <Image src="/img/m.svg" width={468} height={350} alt="Logo" priority />
+        <Image src="/img/m.png" width={440} height={350} alt="Logo" priority />
       </div>
     </div>
   );

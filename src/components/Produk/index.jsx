@@ -3,8 +3,17 @@ import Image from "next/image";
 
 const index = () => {
   return (
-    <div id="produk" className={style.container}>
-      <div className={style.title}>Produk</div>
+    <div
+      id="produk"
+      className={style.container}
+      style={{ fontFamily: "Poppins, sans-serif" }}
+    >
+      <div
+        className={style.title}
+        style={{ fontFamily: "'Philosopher', sans-serif" }}
+      >
+        Produk
+      </div>
       <div className={style.desc}>
         Potensi penyerapan komoditas yang disediakan oleh Matsuko.id untuk
         industri konveksi dan garmen sangatlah besar. Dengan berbagai pilihan

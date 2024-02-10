@@ -15,7 +15,7 @@
 }
 
 .number {
-  @apply text-[#264E85] text-[150px] font-bold absolute -bottom-16 right-[20px];
+  @apply text-[#264E85] text-[150px] font-bold absolute -bottom-[76px] right-[20px];
 }
 
 .text {

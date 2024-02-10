@@ -46,7 +46,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className={`${style.container} ${isScrolling ? style.scrolling : ""}`}>
+    <div
+      style={{ fontFamily: "Poppins, sans-serif" }}
+      className={`${style.container} ${isScrolling ? style.scrolling : ""}`}
+    >
       {isScrolling ? (
         <div>
           <Image

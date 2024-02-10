@@ -14,7 +14,7 @@
 }
 
 .text {
-  @apply text-[40px] text-[#F0F0F0] font-semibold mb-3;
+  @apply text-[40px] text-[#F0F0F0] font-semibold mb-3 text-center;
 }
 .button {
   @apply text-[#F3F3F3] font-medium text-[20px] py-2 px-3 rounded-lg bg-[#264E85] hover:bg-[#3b5f91] cursor-pointer  text-center;

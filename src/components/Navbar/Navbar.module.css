@@ -11,11 +11,11 @@
 }
 
 .text {
-  @apply w-36 text-center text-xl cursor-pointer   font-semibold opacity-95 hover:opacity-100;
+  @apply w-36 text-center text-xl cursor-pointer   font-light opacity-95 hover:opacity-100;
 }
 
 .active {
-  @apply text-[#264E85] opacity-100 font-bold;
+  @apply text-[#264E85] opacity-100 font-semibold;
   transition: background-color 0.3s ease;
 }
 

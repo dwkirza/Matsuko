@@ -3,8 +3,16 @@ import Image from "next/image";
 
 const index = () => {
   return (
-    <div className={style.container}>
-      <div className={style.title}>Mekanisme Penyediaan Bahan Baku</div>
+    <div
+      className={style.container}
+      style={{ fontFamily: "Poppins, sans-serif" }}
+    >
+      <div
+        className={style.title}
+        style={{ fontFamily: "'Philosopher', sans-serif" }}
+      >
+        Mekanisme Penyediaan Bahan Baku
+      </div>
       <div className={style.desc}>
         Mekanisme kerja di bawah ini mencakup skema atau pola penyediaan barang
         yang sudah dirancang oleh Matsuko.Id dari produsen hingga buyers.
