@@ -27,7 +27,7 @@
 }
 
 .wrapper_img {
-  @apply w-[23px] md:w-[115px] h-[100%] border  md:h-10  flex justify-center;
+  @apply w-[23px] md:w-[115px] h-[80%] border  md:h-10  flex items-center place-content-center text-center justify-center;
 }
 
 .line {
