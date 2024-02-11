@@ -27,7 +27,7 @@
 }
 
 .wrapper_img {
-  @apply w-[23px] md:w-[115px] h-16 md:h-10  flex justify-center;
+  @apply w-[23px] md:w-[115px] h-full pb-5 md:h-10  flex justify-center;
 }
 
 .line {

@@ -39,5 +39,5 @@
 }
 
 .wrapper {
-  @apply w-[66px] md:w-full flex flex-col items-center;
+  @apply flex flex-col items-center;
 }
