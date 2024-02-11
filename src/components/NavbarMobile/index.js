@@ -44,9 +44,9 @@ const Index = () => {
     };
   }, []);
 
-  // const handleLinkClick = (targetId) => {
-  //   setActiveSection(targetId);
-  // };
+  const handleLinkClick = (targetId) => {
+    setActiveSection(targetId);
+  };
   return (
     <div
       className={`${style.container} ${isScrolling ? style.scrolling : ""}`}
@@ -74,24 +74,19 @@ const Index = () => {
         className={`${style.buttonmenu} ${
           isScrolling ? style.buttonmenuactive : ""
         }`}
-        // onClick={showDrawer}
+        onClick={showDrawer}
       >
         <HiOutlineMenu size={40} />
       </button>
 
-      {/* <Drawer
-        size="large"
-        placement="right"
-        title="Basic Drawer"
-        onClose={onClose}
-        open={open}
-      >
+      <Drawer size="large" placement="right" onClose={onClose} open={open}>
         <div className="flex flex-col  items-center">
           <a
             href="#beranda"
             className={`${style.text} ${
               activeSection === "beranda" ? style.activetext : ""
             }`}
+            onClick={() => handleLinkClick("beranda")}
           >
             Beranda
           </a>
@@ -100,6 +95,7 @@ const Index = () => {
             className={`${style.text} ${
               activeSection === "tentangkami" ? style.activetext : ""
             }`}
+            onClick={() => handleLinkClick("tentangkami")}
           >
             Tentang Kami
           </a>
@@ -108,6 +104,7 @@ const Index = () => {
             className={`${style.text} ${
               activeSection === "produk" ? style.activetext : ""
             }`}
+            onClick={() => handleLinkClick("produk")}
           >
             Produk
           </a>
@@ -116,6 +113,7 @@ const Index = () => {
             className={`${style.text} ${
               activeSection === "kontak" ? style.activetext : ""
             }`}
+            onClick={() => handleLinkClick("kontak")}
           >
             Kontak
           </a>
@@ -130,7 +128,7 @@ const Index = () => {
             />
           </div>
         </div>
-      </Drawer> */}
+      </Drawer>
     </div>
   );
 };
