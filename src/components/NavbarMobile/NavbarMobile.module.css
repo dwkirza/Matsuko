@@ -1,13 +1,20 @@
 .container {
-  @apply border fixed top-0 z-50 w-full  h-[80px]   bg-white text-black flex flex-row justify-between items-center px-7;
-  transition: background-color 0.3s ease;
+  @apply fixed top-0 z-50 w-full  h-[80px]   bg-white text-black flex flex-row justify-between items-center px-7;
+  transition: background-color 0.5s ease;
 }
 .buttonmenu {
   @apply text-[#264E85];
+  transition: background-color 0.5s ease;
+}
+
+.buttonmenuactive {
+  @apply text-white;
+  transition: background-color 0.5s ease;
 }
 
 .scrolling {
   @apply bg-[#264E85] text-[#F3F3F3];
+  transition: background-color 0.5s ease;
 }
 
 .active {
@@ -15,8 +22,8 @@
   transition: background-color 0.3s ease;
 }
 
-.activeScroll {
-  @apply text-[#F0F0F0]  font-bold;
+.activetext {
+  @apply text-[#FBFBFD]  font-bold;
   transition: background-color 0.3s ease;
 }
 
@@ -25,5 +32,5 @@
 }
 
 .text {
-  @apply w-36 text-center text-xl cursor-pointer   font-light opacity-95 hover:opacity-100;
+  @apply mb-[15px] text-black w-36 h-9 text-center text-xl cursor-pointer   font-light;
 }

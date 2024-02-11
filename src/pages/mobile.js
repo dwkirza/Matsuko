@@ -1,5 +1,5 @@
 // Copyright 1999-2024. Plesk International GmbH. All rights reserved.
-import NavbarMobile from "@/components/NavbarMobile";
+import NavbarMobile from "@/components/NavbarMobile/index";
 import HeadImg from "@/components/HeadImg/index";
 import TentangKami from "@/components/TentangKami";
 import BahanBakuMobile from "@/components/BahanBakuMobile";
