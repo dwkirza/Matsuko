@@ -1,5 +1,5 @@
 .container {
-  @apply border fixed top-0 z-50 w-full  h-[110px]  bg-white text-black flex flex-row justify-between items-center px-7;
+  @apply border fixed top-0 z-50 w-full  h-[80px]   bg-white text-black flex flex-row justify-between items-center px-7;
   transition: background-color 0.3s ease;
 }
 .buttonmenu {

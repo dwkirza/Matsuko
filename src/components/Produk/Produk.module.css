@@ -11,7 +11,7 @@
 }
 
 .wrapper_img {
-  @apply w-full h-[113px] md:md:h-[407px]  flex flex-row mb-[43px] md:mb-36 border-4;
+  @apply w-full h-[113px] md:md:h-[407px]  flex flex-row mb-[43px] md:mb-36;
 }
 
 .img {

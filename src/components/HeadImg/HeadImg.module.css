@@ -1,5 +1,5 @@
 .container {
-  @apply relative mt-[110px] md:mt-24 w-full h-[205px] md:h-[365px]  bg-white text-white flex flex-row justify-between items-center;
+  @apply relative mt-[80px] md:mt-24 w-full h-[205px] md:h-[365px]  bg-white text-white flex flex-row justify-between items-center;
 }
 
 .wrapper_img {
