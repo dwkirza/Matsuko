@@ -2,6 +2,7 @@ import { useState } from "react";
 import style from "./NavbarMobile.module.css";
 import Image from "next/image";
 import { HiOutlineMenu } from "react-icons/hi";
+// import { Button } from "antd";
 
 const Index = () => {
   return (
@@ -9,6 +10,7 @@ const Index = () => {
       className={style.container}
       style={{ fontFamily: "Poppins, sans-serif" }}
     >
+      {/* <Button type="primary">Click me!</Button> */}
       <Image
         src="/img/logoPrimary.png"
         alt="Logo"

@@ -17,6 +17,6 @@
   @apply w-full text-xl md:text-[40px] text-[#F0F0F0] font-semibold mb-3 md:mb-5 text-center;
 }
 .button {
-  @apply flex flex-row  justify-center items-center gap-1 text-[#F3F3F3] font-medium text-[9px] md:text-[20px] py-2 px-3 rounded-lg bg-[#264E85] hover:bg-[#3b5f91] cursor-pointer  text-center;
+  @apply flex flex-row  justify-center items-center gap-1 text-[#F3F3F3] font-medium text-[12px] md:text-[20px] py-2 px-3 rounded-lg bg-[#264E85] hover:bg-[#3b5f91] cursor-pointer  text-center;
   transition: background-color 0.3s ease;
 }

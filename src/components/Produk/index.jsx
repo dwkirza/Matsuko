@@ -22,6 +22,14 @@ const index = () => {
       </div>
 
       <div className={style.wrapper_img}>
+        <div className="absolute flex flex-row items-center justify-center z-10 w-full h-[21px] md:h-[79px] bg-white top-[40%]">
+          <div className={style.text}>Kain</div>
+          <div className={style.text}>Zipper</div>
+          <div className={style.text}>Benang</div>
+          <div className={style.text}>Tali</div>
+          <div className={style.text}>Mesin</div>
+          <div className={style.text}>Webbing</div>
+        </div>
         <div className={style.img}>
           <Image
             src="/img/kain.svg"
@@ -30,7 +38,6 @@ const index = () => {
             fill
             priority
           />
-          <div className={style.text}>Kain</div>
         </div>
         <div className={style.img}>
           <Image
@@ -40,7 +47,6 @@ const index = () => {
             fill
             priority
           />
-          <div className={style.text}>Zipper</div>
         </div>
 
         <div className={style.img}>
@@ -51,7 +57,6 @@ const index = () => {
             fill
             priority
           />
-          <div className={style.text}>Benang</div>
         </div>
         <div className={style.img}>
           <Image
@@ -61,7 +66,6 @@ const index = () => {
             fill
             priority
           />
-          <div className={style.text}>Tali</div>
         </div>
 
         <div className={style.img}>
@@ -72,7 +76,6 @@ const index = () => {
             fill
             priority
           />
-          <div className={style.text}>Mesin</div>
         </div>
         <div className={style.img}>
           <Image
@@ -82,7 +85,6 @@ const index = () => {
             fill
             priority
           />
-          <div className={style.text}>Webbing</div>
         </div>
       </div>
     </div>

@@ -1,7 +1,22 @@
+import { useEffect, useState } from "react";
 import style from "./BahanBaku.module.css";
 import Image from "next/image";
 
 const index = () => {
+  const [isDesktop, setIsDesktop] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth > 500);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
     <div
       className={style.container}
@@ -18,26 +33,36 @@ const index = () => {
         yang sudah dirancang oleh Matsuko.Id dari produsen hingga buyers.
       </div>
 
-      <div className="md:mb-10  w-full  h-20 md:h-full flex flex-row justify-center md:items-center mt-3 md:mt-9 gap-3">
-        <div>
+      <div className={style.wrapper_stepper}>
+        <div className={style.wrapper}>
           <div className={style.wrapper_number}>
-            <div className={style.number}>01</div>
+            <div className={style.numbersatu}>01</div>
           </div>
           <div className={style.line}></div>
           <div className={style.text}>Produsen Bahan Baku</div>
         </div>
 
         <div className={style.wrapper_img}>
-          <Image
-            src="/img/arrow.svg"
-            alt="Logo"
-            width={115}
-            height={20}
-            priority
-          />
+          {isDesktop ? (
+            <Image
+              src="/img/arrow.svg"
+              alt="Logo"
+              width={115}
+              height={20}
+              priority
+            />
+          ) : (
+            <Image
+              src="/img/arrowmobile.svg"
+              alt="Logo"
+              width={115}
+              height={20}
+              priority
+            />
+          )}
         </div>
 
-        <div>
+        <div className={style.wrapper}>
           <div className={style.wrapper_number}>
             <div className={style.number}>02</div>
           </div>
@@ -46,16 +71,26 @@ const index = () => {
         </div>
 
         <div className={style.wrapper_img}>
-          <Image
-            src="/img/arrow.svg"
-            alt="Logo"
-            width={115}
-            height={20}
-            priority
-          />
+          {isDesktop ? (
+            <Image
+              src="/img/arrow.svg"
+              alt="Logo"
+              width={115}
+              height={20}
+              priority
+            />
+          ) : (
+            <Image
+              src="/img/arrowmobile.svg"
+              alt="Logo"
+              width={115}
+              height={20}
+              priority
+            />
+          )}
         </div>
 
-        <div>
+        <div className={style.wrapper}>
           <div className={style.wrapper_number}>
             <div className={style.number}>03</div>
           </div>
