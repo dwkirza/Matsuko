@@ -22,15 +22,15 @@
   transition: background-color 0.3s ease;
 }
 
-.activetext {
-  @apply text-[#fdfdfb]  font-bold;
-  transition: background-color 0.3s ease;
-}
-
 .wrapper_menu {
   @apply w-full flex flex-row justify-end gap-5;
 }
 
 .text {
-  @apply mb-[15px] text-black w-36 h-9 text-center text-xl cursor-pointer   font-light;
+  @apply mb-[15px]  w-36 h-9 text-center text-xl cursor-pointer   font-light;
+}
+
+.activetext {
+  @apply text-[#fdfdfb]  font-bold;
+  transition: background-color 0.3s ease;
 }
