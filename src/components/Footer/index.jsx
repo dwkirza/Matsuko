@@ -12,7 +12,7 @@ const index = () => {
       className={style.container}
       style={{ fontFamily: "Poppins, sans-serif" }}
     >
-      <div>
+      <div className>
         <div
           className={style.title}
           style={{ fontFamily: "'Philosopher', sans-serif" }}
@@ -41,8 +41,10 @@ const index = () => {
           </div>
         </div>
       </div>
-      <div className="relative">
-        <Image src="/img/m.png" width={440} height={350} alt="Logo" priority />
+      <div className={style.wrapper_img}>
+        <div className={style.img}>
+          <Image src="/img/m.png" fill alt="Logo" priority />
+        </div>
       </div>
     </div>
   );

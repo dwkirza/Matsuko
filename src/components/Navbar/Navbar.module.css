@@ -11,7 +11,7 @@
 }
 
 .text {
-  @apply w-36 text-center text-xl cursor-pointer   font-light opacity-95 hover:opacity-100;
+  @apply w-36 text-center text-[19px] cursor-pointer   font-light opacity-95 hover:opacity-100;
 }
 
 .active {

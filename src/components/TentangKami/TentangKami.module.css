@@ -1,11 +1,11 @@
 .container {
-  @apply mt-12 px-24 w-full;
+  @apply mt-[43px] md:mt-12 px-[39px] md:px-24 w-full;
 }
 
 .title {
-  @apply font-bold text-[45px] text-[#264E85] mb-9;
+  @apply font-bold text-xl md:text-[40px] text-[#264E85] mb-[13px] md:mb-9;
 }
 
 .desc {
-  @apply text-black text-lg  text-justify mb-6;
+  @apply text-black text-[10px] md:text-lg  text-justify mb-[13px] md:mb-6;
 }

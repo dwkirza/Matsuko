@@ -1,25 +1,25 @@
 .container {
-  @apply mt-12  w-full;
+  @apply mt-[43px] md:mt-12  w-full;
 }
 
 .title {
-  @apply px-24 font-bold text-[45px] text-[#264E85] mb-9;
+  @apply px-[39px] md:px-24 font-bold text-xl md:text-[40px] text-[#264E85] mb-[13px] md:mb-9;
 }
 
 .desc {
-  @apply px-24 text-black text-lg  text-justify mb-10;
+  @apply px-[39px] md:px-24 text-black text-[10px] md:text-lg  text-justify mb-[30px] md:mb-6;
 }
 
 .wrapper_img {
-  @apply w-full h-[407px]  flex flex-row mb-36;
+  @apply w-full h-[113px] md:md:h-[407px]  flex flex-row mb-[43px] md:mb-36 border-4;
 }
 
 .img {
-  @apply w-[16.6%] h-[407px]  relative;
+  @apply w-[16.6%] h-[113px] md:md:h-[407px]  relative;
 }
 
 .text {
-  @apply absolute text-[30px] font-semibold text-[#264E85] bg-white h-[79px] w-full text-center flex justify-center items-center;
+  @apply absolute text-[8px] md:text-[25px] font-semibold text-[#264E85] bg-white h-[21px] md:h-[79px] w-full text-center flex justify-center items-center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

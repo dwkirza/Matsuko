@@ -18,7 +18,7 @@ const index = () => {
         yang sudah dirancang oleh Matsuko.Id dari produsen hingga buyers.
       </div>
 
-      <div className="mb-10  w-full flex flex-row justify-center items-center mt-9 gap-3">
+      <div className="md:mb-10  w-full  h-20 md:h-full flex flex-row justify-center md:items-center mt-3 md:mt-9 gap-3">
         <div>
           <div className={style.wrapper_number}>
             <div className={style.number}>01</div>
@@ -60,7 +60,7 @@ const index = () => {
             <div className={style.number}>03</div>
           </div>
           <div className={style.line}></div>
-          <div className={style.text}>Buyers/Konveksi</div>
+          <div className={style.text}>Buyers / Konveksi</div>
         </div>
       </div>
     </div>
