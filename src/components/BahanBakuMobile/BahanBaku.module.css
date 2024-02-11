@@ -1,0 +1,43 @@
+.container {
+  @apply mt-[43px] md:mt-12 px-[39px] md:px-24 w-full;
+}
+
+.title {
+  @apply font-bold text-xl md:text-[40px] text-[#264E85] mb-[13px] md:mb-9;
+}
+
+.desc {
+  @apply text-black text-[10px] md:text-lg  text-justify mb-[13px] md:mb-6;
+}
+
+.wrapper_number {
+  @apply relative w-[63px] md:w-56 h-10 md:h-28  mt-0 md:mt-5  overflow-hidden;
+}
+
+.numbersatu {
+  @apply text-[#264E85] text-[39px] md:text-[150px] font-bold absolute -bottom-5 md:-bottom-[76px] right-[12px] md:right-[30px];
+}
+
+.number {
+  @apply text-[#264E85] text-[39px] md:text-[150px] font-bold absolute -bottom-5 md:-bottom-[76px] right-[8px] md:right-[20px];
+}
+
+.text {
+  @apply text-[10px] text-center md:text-2xl font-medium mt-0 md:mt-2;
+}
+
+.wrapper_img {
+  @apply w-[23px] md:w-[115px] h-16 md:h-10  flex justify-center;
+}
+
+.line {
+  @apply w-[63px] md:w-56  h-1 bg-gradient-to-b from-[#264E85]/40 to-white;
+}
+
+.wrapper_stepper {
+  @apply md:mb-10   w-full  h-20 md:h-full flex flex-row justify-center md:items-center mt-3 md:mt-9 md:gap-3 gap-1;
+}
+
+.wrapper {
+  @apply w-[66px] md:w-full flex flex-col items-center;
+}

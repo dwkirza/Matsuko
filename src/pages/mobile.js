@@ -2,7 +2,7 @@
 import NavbarMobile from "@/components/NavbarMobile";
 import HeadImg from "@/components/HeadImg/index";
 import TentangKami from "@/components/TentangKami";
-import BahanBaku from "@/components/BahanBaku";
+import BahanBakuMobile from "@/components/BahanBakuMobile";
 import Keuntungan from "@/components/Keutungan";
 import Produk from "@/components/Produk";
 import Footer from "@/components/Footer";
@@ -12,7 +12,7 @@ export default function Mobile() {
       <NavbarMobile />
       <HeadImg />
       <TentangKami />
-      <BahanBaku />
+      <BahanBakuMobile />
       <Keuntungan />
       <Produk />
       <Footer />

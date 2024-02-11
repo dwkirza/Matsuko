@@ -29,7 +29,7 @@ const index = () => {
 
         <div className={style.wrapper_img}>
           <Image
-            src="/img/arrow.svg"
+            src="/img/arrowmobile.svg"
             alt="Logo"
             width={115}
             height={20}
@@ -47,7 +47,7 @@ const index = () => {
 
         <div className={style.wrapper_img}>
           <Image
-            src="/img/arrow.svg"
+            src="/img/arrowmobile.svg"
             alt="Logo"
             width={115}
             height={20}
