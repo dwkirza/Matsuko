@@ -1,5 +1,5 @@
 .container {
-  @apply bg-[#264E85] w-full h-[500px] md:h-[370px] pl-[39px] md:pl-24 flex flex-col md:flex-row md:items-center justify-between;
+  @apply bg-[#264E85] w-full h-[530px] md:h-[370px] pl-[39px] md:pl-24 flex flex-col md:flex-row md:items-center justify-between;
 }
 
 .title {
@@ -11,7 +11,7 @@
 }
 
 .textaddres {
-  @apply text-[10px] md:text-sm text-[#ddd] font-medium;
+  @apply text-[10px] md:text-sm text-[#ddd] font-medium pr-[39px] md:pr-0;
 }
 
 .textsosmed {
