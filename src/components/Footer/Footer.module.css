@@ -11,7 +11,7 @@
 }
 
 .textaddres {
-  @apply text-[10px] md:text-sm text-[#ddd] font-medium pr-[39px] md:pr-0;
+  @apply text-[10px] md:text-sm text-[#ddd] font-medium mr-[39px] md:mr-0;
 }
 
 .textsosmed {
