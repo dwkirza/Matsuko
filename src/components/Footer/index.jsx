@@ -37,8 +37,8 @@ const index = () => {
         <div className={style.wrapper_sosmed}>
           <IoLocationSharp className="text-[#FBFBFD]" size={24} />
           <div className={style.textaddres}>
-            <div>Pakubuwono Terrace Apartment - Tower South Lt. 9</div>
             <div>Jl. Ciledug Raya No. 99</div>
+            <div>Kel. Cipulir, Kec. Kebayoran Lama</div>
             <div>Jakarta Selatan</div>
           </div>
         </div>
